@@ -24,6 +24,7 @@
       "@env": ["environments/environment"],
       "@app/*": ["app/*"],
       "@core/*": ["app/core/*"],
+      "@services/*": ["app/core/services/*"],
       "@models/*": ["app/core/models/*"],
       "@modules/*": ["app/modules/*"],
       "@shared/*": ["app/shared/*"],
