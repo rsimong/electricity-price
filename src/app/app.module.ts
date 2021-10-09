@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 
 // Import Modules
 import { CoreModule } from '@core/core.module';
+import { HomeComponent } from './modules/home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
